@@ -11,11 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a771c526-823f-4e4e-a6cf-d640947a478a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StuckInALoop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StuckInALoop/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMoveHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMoveHandler.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StuckInALoop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StuckInALoop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StuckInALoop/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StuckInALoop/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/.gitignore.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveHandler.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///home/johannes/java/unity/StuckInALoop/Assets/Scenes/GameScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMoveHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Unity/Hub/Editor/2020.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/johannes/java/unity/StuckInALoop/Assets/Scenes/GameScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -89,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602353472251</updated>
       <workItem from="1602353476351" duration="7331000" />
-      <workItem from="1602366614022" duration="1489000" />
+      <workItem from="1602366614022" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1602365093295</created>
@@ -105,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602366740791</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Move player">
+      <created>1602368389888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602368389888</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,13 +138,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="Fix overlay" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix overlay" />
+    <MESSAGE value="Move player" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move player" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="222" y="79" width="805" height="884" key="CommitChangelistDialog2" timestamp="1602366740478">
+    <state x="222" y="79" width="805" height="884" key="CommitChangelistDialog2" timestamp="1602368389733">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="222" y="79" width="805" height="884" key="CommitChangelistDialog2/0.0.1920.1043@0.0.1920.1043" timestamp="1602366740478" />
+    <state x="222" y="79" width="805" height="884" key="CommitChangelistDialog2/0.0.1920.1043@0.0.1920.1043" timestamp="1602368389733" />
     <state x="220" y="52" width="1540" height="864" key="DiffContextDialog" timestamp="1602366721077">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
@@ -153,10 +162,10 @@
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
     <state x="124" y="156" key="SettingsEditor/0.0.1920.1043@0.0.1920.1043" timestamp="1602354481299" />
-    <state x="223" y="257" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602366743106">
+    <state x="223" y="257" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602368391173">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="223" y="257" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1043@0.0.1920.1043" timestamp="1602366743106" />
+    <state x="223" y="257" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1043@0.0.1920.1043" timestamp="1602368391173" />
     <state x="427" y="238" width="388" height="565" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602362623351">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
