@@ -10,12 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a771c526-823f-4e4e-a6cf-d640947a478a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/.gitignore.meta" afterDir="false" />
-    </list>
+    <list default="true" id="a771c526-823f-4e4e-a6cf-d640947a478a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Unity/Hub/Editor/2020.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -82,8 +78,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602353472251</updated>
-      <workItem from="1602353476351" duration="6495000" />
+      <workItem from="1602353476351" duration="7331000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1602365093295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602365093295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,12 +109,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="222" y="79" width="805" height="884" key="CommitChangelistDialog2" timestamp="1602364939773">
+    <state x="222" y="79" width="805" height="884" key="CommitChangelistDialog2" timestamp="1602365093116">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="222" y="79" width="805" height="884" key="CommitChangelistDialog2/0.0.1920.1043@0.0.1920.1043" timestamp="1602364939773" />
+    <state x="222" y="79" width="805" height="884" key="CommitChangelistDialog2/0.0.1920.1043@0.0.1920.1043" timestamp="1602365093116" />
     <state x="0" y="89" width="1540" height="864" key="DiffContextDialog" timestamp="1602362706759">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
@@ -127,10 +133,10 @@
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
     <state x="124" y="156" key="SettingsEditor/0.0.1920.1043@0.0.1920.1043" timestamp="1602354481299" />
-    <state x="223" y="257" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602362643083">
+    <state x="223" y="257" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602365225858">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="223" y="257" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1043@0.0.1920.1043" timestamp="1602362643083" />
+    <state x="223" y="257" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1043@0.0.1920.1043" timestamp="1602365225858" />
     <state x="427" y="238" width="388" height="565" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602362623351">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
