@@ -11,39 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a771c526-823f-4e4e-a6cf-d640947a478a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Medium.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Medium.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Strong.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Strong.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weak.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weak.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMoveHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMoveHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generic.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/ShootingHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/ShootingHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/bullet_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/bullet_green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/bullet_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/bullet_red.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/bullet_yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/bullet_yellow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/enemy_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/enemy_green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/enemy_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/enemy_red.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/enemy_yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/enemy_yellow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/spaceship.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/spaceship.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StuckInALoop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StuckInALoop/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StuckInALoop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StuckInALoop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMoveHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMoveHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enemy_green.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enemy_green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enemy_green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enemy_green.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enemy_red.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enemy_red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enemy_red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enemy_red.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enemy_yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enemy_yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enemy_yellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enemy_yellow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/spaceship.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/spaceship.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/spaceship.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/spaceship.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +33,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/johannes/java/unity/StuckInALoop/Assets/Scripts/Player/PlayerMoveHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Unity/Hub/Editor/2020.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F6C5B798-1CB1-4F39-B4CE-4A661BFE9B97/53/589ffd36/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/johannes/java/unity/StuckInALoop/Assets/Prefabs/Enemy.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/johannes/java/unity/StuckInALoop/Assets/Textures/spaceship.png.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -121,7 +103,7 @@
       <updated>1602353472251</updated>
       <workItem from="1602353476351" duration="7331000" />
       <workItem from="1602366614022" duration="3094000" />
-      <workItem from="1602415020817" duration="14336000" />
+      <workItem from="1602415020817" duration="20583000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1602365093295</created>
@@ -151,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602369151310</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Spawn enemies and move them">
+      <created>1602433645726</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602433645726</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Spawn enemies and move them">
+      <created>1602433699802</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602433699802</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,16 +175,17 @@
     <MESSAGE value="Fix overlay" />
     <MESSAGE value="Move player" />
     <MESSAGE value="rearrange scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="rearrange scripts" />
+    <MESSAGE value="Spawn enemies and move them" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spawn enemies and move them" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="222" y="79" width="805" height="884" key="CommitChangelistDialog2" timestamp="1602415511426">
+    <state x="222" y="79" width="805" height="884" key="CommitChangelistDialog2" timestamp="1602444698292">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="222" y="79" width="805" height="884" key="CommitChangelistDialog2/0.0.1920.1043@0.0.1920.1043" timestamp="1602415511426" />
+    <state x="222" y="79" width="805" height="884" key="CommitChangelistDialog2/0.0.1920.1043@0.0.1920.1043" timestamp="1602444698292" />
     <state x="220" y="52" width="1540" height="864" key="DiffContextDialog" timestamp="1602366721077">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
@@ -209,10 +206,10 @@
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
     <state x="124" y="156" key="SettingsEditor/0.0.1920.1043@0.0.1920.1043" timestamp="1602427869486" />
-    <state x="223" y="257" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602369152705">
+    <state x="223" y="257" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602433705224">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="223" y="257" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1043@0.0.1920.1043" timestamp="1602369152705" />
+    <state x="223" y="257" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1043@0.0.1920.1043" timestamp="1602433705224" />
     <state x="427" y="238" width="388" height="565" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602362623351">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
