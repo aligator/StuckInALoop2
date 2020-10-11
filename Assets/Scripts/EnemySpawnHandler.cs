@@ -59,8 +59,8 @@ public class EnemySpawnHandler : MonoBehaviour {
         // Hardcoded list of enemies to be spawned.
         enemiesToSpawn = new[] {
             new EnemyStartingStats(EnemyType.Weak, 1, 0.5f, 100, 2),
-            new EnemyStartingStats(EnemyType.Medium, 1, 1f, 100, 1),
-            new EnemyStartingStats(EnemyType.Strong, 1, 0f, 100, 1),
+            new EnemyStartingStats(EnemyType.Medium, 1, 1f, 50, 1),
+            new EnemyStartingStats(EnemyType.Strong, 1, 0f, 80, 1),
             new EnemyStartingStats(EnemyType.Weak, 1, 0.1f, 100, 1)
         };
 
@@ -77,7 +77,7 @@ public class EnemySpawnHandler : MonoBehaviour {
         if (Time.fixedTime < lastSpawnTime + enemiesToSpawn[nextEnemy].spawnWaitTime) return;
 
         // Spawn a new enemy.
-        NewEnemy(enemiesToSpawn[nextEnemy]);
+        SpawnEnemy(enemiesToSpawn[nextEnemy]);
         nextEnemy++;
         lastSpawnTime = Time.fixedTime;
     }
@@ -85,7 +85,7 @@ public class EnemySpawnHandler : MonoBehaviour {
     /**
      * Spawns a new enemy with the given data.
      */
-    private GameObject NewEnemy(EnemyStartingStats stats) {
+    private GameObject SpawnEnemy(EnemyStartingStats stats) {
         // Create the new enemy based on the given type.
         var newEnemy = Instantiate(possibleEnemies[stats.type]);
 
