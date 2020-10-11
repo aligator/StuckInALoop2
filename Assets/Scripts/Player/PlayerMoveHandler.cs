@@ -1,24 +1,24 @@
 ﻿using UnityEngine;
 
-public class PlayerMoveHandler : MonoBehaviour
-{
-    private readonly int SPEED = 10;
+namespace Player {
+    public class PlayerMoveHandler : MonoBehaviour {
+        private const float Speed = 0.1f;
 
-    // Start is called before the first frame update
-    private void Start()
-    {
-    }
+        private Rigidbody2D body;
 
-    // Update is called once per frame
-    private void Update()
-    {
-        var transformPosition = transform.position;
+        private void Start() {
+            body = GetComponent<Rigidbody2D>();
+        }
 
-        if (Input.GetKey(KeyCode.W)) transformPosition.y += SPEED * Time.deltaTime;
-        if (Input.GetKey(KeyCode.S)) transformPosition.y -= SPEED * Time.deltaTime;
-        if (Input.GetKey(KeyCode.A)) transformPosition.x -= SPEED * Time.deltaTime;
-        if (Input.GetKey(KeyCode.D)) transformPosition.x += SPEED * Time.deltaTime;
+        private void FixedUpdate() {
+            var transformPosition = transform.position;
 
-        transform.position = transformPosition;
+            if (Input.GetKey(KeyCode.W)) transformPosition.y += Speed;
+            if (Input.GetKey(KeyCode.S)) transformPosition.y -= Speed;
+            if (Input.GetKey(KeyCode.A)) transformPosition.x -= Speed;
+            if (Input.GetKey(KeyCode.D)) transformPosition.x += Speed;
+
+            body.MovePosition(transformPosition);
+        }
     }
 }
