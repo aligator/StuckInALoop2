@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: 4fb9e28370b5300beb3a1f44a0d49237
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7691294901476699688
+    second: spaceship_0
+  - first:
+      213: -1317505059173679881
+    second: spaceship_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,13 +47,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 25, y: 16, z: 26, w: 15}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -99,7 +105,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spaceship_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 16
+        width: 77
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eaa4176f7fcba60800000000000000
+      internalID: 7691294901476699688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape:
     - - {x: 21, y: -10}

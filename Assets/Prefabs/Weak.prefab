@@ -53,7 +53,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 319307226657977237, guid: fd2cfdfd230177f9fa45e9b481d608fd, type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Weak
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986460381201584071, guid: fd2cfdfd230177f9fa45e9b481d608fd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1546465477379016707, guid: a416e143d3f759252831cc1064ef7973, type: 3}
+    - target: {fileID: 7986460381201584071, guid: fd2cfdfd230177f9fa45e9b481d608fd, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd2cfdfd230177f9fa45e9b481d608fd, type: 3}

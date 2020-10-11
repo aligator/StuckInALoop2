@@ -16,10 +16,10 @@ namespace Player {
 
             if (cam == null) throw new NoNullAllowedException();
 
-            var playerSize = GetComponent<SpriteRenderer>().sprite.bounds.size;
+            var playerSize = GetComponent<SpriteRenderer>().sprite.bounds.extents;
 
-            min = cam.ViewportToWorldPoint(new Vector3()) + playerSize / 2;
-            max = cam.ViewportToWorldPoint(cam.rect.size) - playerSize / 2;
+            min = cam.ViewportToWorldPoint(new Vector3()) + playerSize;
+            max = cam.ViewportToWorldPoint(cam.rect.size) - playerSize;
         }
 
         private void FixedUpdate() {
