@@ -58,10 +58,10 @@ public class EnemySpawnHandler : MonoBehaviour {
 
         // Hardcoded list of enemies to be spawned.
         enemiesToSpawn = new[] {
-            new EnemyStartingStats(EnemyType.Weak, 1, 0.5f, 100, 2),
-            new EnemyStartingStats(EnemyType.Medium, 1, 1f, 50, 1),
-            new EnemyStartingStats(EnemyType.Strong, 1, 0f, 80, 1),
-            new EnemyStartingStats(EnemyType.Weak, 1, 0.1f, 100, 1)
+            new EnemyStartingStats(EnemyType.Weak, 1, 0.5f, 0.1f, 2),
+            new EnemyStartingStats(EnemyType.Medium, 1, 1f, 0.08f, 1),
+            new EnemyStartingStats(EnemyType.Strong, 1, 0f, 0.05f, 1),
+            new EnemyStartingStats(EnemyType.Weak, 1, 0.1f, 0.08f, 1)
         };
 
         lastSpawnTime = 0;
@@ -98,8 +98,8 @@ public class EnemySpawnHandler : MonoBehaviour {
             (screenHeight - size.y) * stats.yPositionPercentage - screenHeight / 2 + size.y / 2, 0);
 
         // Apply a force.
-        var rigid = newEnemy.GetComponent<Rigidbody2D>();
-        rigid.AddForce(new Vector2(1, 0) * -stats.speed);
+        var move = newEnemy.GetComponent<MoveHandler>();
+        move.direction = new Vector2(1, 0) * -stats.speed;
         return newEnemy;
     }
 

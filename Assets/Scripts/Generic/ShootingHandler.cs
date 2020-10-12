@@ -37,8 +37,8 @@ namespace Generic {
             newShot.GetComponent<SpriteRenderer>().flipX = flip;
 
             // Apply a force.
-            var rigid = newShot.GetComponent<Rigidbody2D>();
-            rigid.AddForce(new Vector2(force.x * (flip ? -1 : 1), force.y));
+            var move = newShot.GetComponent<MoveHandler>();
+            move.direction = new Vector2(force.x * (flip ? -1 : 1), force.y);
             return newShot;
         }
     }
