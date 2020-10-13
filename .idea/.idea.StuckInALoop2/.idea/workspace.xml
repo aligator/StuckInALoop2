@@ -19,22 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5411ab59-97f8-4ab2-87b6-9c575e05096b" name="Default Changelist" comment="update gitignore">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Constants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Constants.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/HealthHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/HealthHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/Owner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/Owner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StuckInALoop2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StuckInALoop2/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="5411ab59-97f8-4ab2-87b6-9c575e05096b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StuckInALoop2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StuckInALoop2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Shot/Shot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Shot/Shot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Shot/WeakShot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Shot/WeakShot.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemySpawnHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySpawnHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generic/MoveHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/MoveHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generic/ShootingHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/ShootingHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +30,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/data/Programming/Unity/StuckInALoop2/Assets/Prefabs/Shot/WeakShot.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/data/Programming/Unity/StuckInALoop2/Assets/Scripts/EnemySpawnHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/data/Programming/Unity/StuckInALoop2/Assets/Scenes/GameScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/data/Programming/Unity/StuckInALoop2/Assets/Prefabs/Shot/Shot.prefab" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -104,7 +97,7 @@
       <updated>1602523147847</updated>
       <workItem from="1602523159093" duration="1465000" />
       <workItem from="1602532622331" duration="3967000" />
-      <workItem from="1602606984537" duration="10149000" />
+      <workItem from="1602606984537" duration="11059000" />
     </task>
     <task id="LOCAL-00001" summary="Dispose enemies and shots when out of screen">
       <created>1602538137547</created>
@@ -120,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602607167692</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Shot collisions">
+      <created>1602618904228</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602618904228</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,9 +144,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Dispose enemies and shots when out of screen" />
     <MESSAGE value="update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
+    <MESSAGE value="Shot collisions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shot collisions" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1835" y="55" width="1217" height="798" key="CommitChangelistDialog2" timestamp="1602618903886">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state x="1835" y="55" width="1217" height="798" key="CommitChangelistDialog2/1600.0.1600.900/0.0.1600.900@0.0.1600.900" timestamp="1602618903886" />
     <state width="1552" height="294" key="GridCell.Tab.0.bottom" timestamp="1602609862774">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -163,9 +168,9 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state width="1552" height="294" key="GridCell.Tab.0.right/1600.0.1600.900/0.0.1600.900@0.0.1600.900" timestamp="1602609862774" />
-    <state x="403" y="288" width="800" height="498" key="Vcs.Push.Dialog.v2" timestamp="1602607229103">
+    <state x="248" y="114" width="956" height="702" key="Vcs.Push.Dialog.v2" timestamp="1602618920728">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="403" y="288" width="800" height="498" key="Vcs.Push.Dialog.v2/1600.0.1600.900/0.0.1600.900@0.0.1600.900" timestamp="1602607229103" />
+    <state x="248" y="114" width="956" height="702" key="Vcs.Push.Dialog.v2/1600.0.1600.900/0.0.1600.900@0.0.1600.900" timestamp="1602618920728" />
   </component>
 </project>
