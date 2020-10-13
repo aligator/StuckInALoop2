@@ -8,8 +8,8 @@ public class MoveHandler : MonoBehaviour
 
     private void FixedUpdate()
     {
-        var position = transform.position;
-        position.Set(position.x + direction.x, position.y + direction.y, 0);
-        transform.position = position;
+        var rigid = GetComponent<Rigidbody2D>();
+        var pos = transform.position;
+        rigid.MovePosition(new Vector2(pos.x + direction.x, pos.y + direction.y));
     }
 }

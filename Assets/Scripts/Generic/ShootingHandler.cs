@@ -1,3 +1,4 @@
+using Constants;
 using UnityEngine;
 
 namespace Generic {
@@ -10,8 +11,10 @@ namespace Generic {
 
         [SerializeField] private float firePauseTime;
 
-        public bool isShooting;
+        [SerializeField] private PlayerType owner;
 
+        public bool isShooting;
+        
         private float nextShot;
 
         private void Start() {
@@ -30,7 +33,9 @@ namespace Generic {
         private GameObject SpawnShot() {
             // Create the new shot.
             var newShot = Instantiate(prefabShot);
-
+            newShot.name = Constants.Name.Shot;
+            Owner.Apply(newShot, owner);
+            
             // Position the new shot.
             newShot.transform.position = transform.position;
 

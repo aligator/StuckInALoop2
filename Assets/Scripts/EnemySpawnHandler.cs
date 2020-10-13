@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using Constants;
+using Generic;
 using UnityEngine;
 
 /**
@@ -89,6 +91,8 @@ public class EnemySpawnHandler : MonoBehaviour {
         // Create the new enemy based on the given type.
         var newEnemy = Instantiate(possibleEnemies[stats.type]);
 
+        Owner.Apply(newEnemy, PlayerType.Enemy);
+        
         // Get the sprite dimensions.
         var spriteRenderer = possibleEnemies[stats.type].GetComponent<SpriteRenderer>();
         var size = spriteRenderer.size;

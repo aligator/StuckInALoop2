@@ -19,9 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5411ab59-97f8-4ab2-87b6-9c575e05096b" name="Default Changelist" comment="Dispose enemies and shots when out of screen">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5411ab59-97f8-4ab2-87b6-9c575e05096b" name="Default Changelist" comment="update gitignore">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Constants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Constants.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/HealthHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/HealthHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/Owner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/Owner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StuckInALoop2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StuckInALoop2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StuckInALoop2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StuckInALoop2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Shot/Shot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Shot/Shot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Shot/WeakShot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Shot/WeakShot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemySpawnHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySpawnHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generic/MoveHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/MoveHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generic/ShootingHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/ShootingHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,10 +48,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMoveHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Generic/MoveHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawnHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisposeTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generic/MoveHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Constants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shot/ShotMeta.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generic/ShootingHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generic/SpaceshipMeta.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawnHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generic/Owner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generic/HealthHandler.cs" />
       </list>
     </option>
   </component>
@@ -50,6 +67,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3497699" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29980275" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -65,10 +84,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="2038">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="2038" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -85,7 +104,7 @@
       <updated>1602523147847</updated>
       <workItem from="1602523159093" duration="1465000" />
       <workItem from="1602532622331" duration="3967000" />
-      <workItem from="1602606984537" duration="123000" />
+      <workItem from="1602606984537" duration="10149000" />
     </task>
     <task id="LOCAL-00001" summary="Dispose enemies and shots when out of screen">
       <created>1602538137547</created>
@@ -94,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602538137547</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update gitignore">
+      <created>1602607167692</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602607167692</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,12 +143,29 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Dispose enemies and shots when out of screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dispose enemies and shots when out of screen" />
+    <MESSAGE value="update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="401" y="228" key="Vcs.Push.Dialog.v2" timestamp="1602538139031">
+    <state width="1552" height="294" key="GridCell.Tab.0.bottom" timestamp="1602609862774">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="401" y="228" key="Vcs.Push.Dialog.v2/1600.0.1600.900/0.0.1600.900@0.0.1600.900" timestamp="1602538139031" />
+    <state width="1552" height="294" key="GridCell.Tab.0.bottom/1600.0.1600.900/0.0.1600.900@0.0.1600.900" timestamp="1602609862774" />
+    <state width="1552" height="294" key="GridCell.Tab.0.center" timestamp="1602609862774">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1552" height="294" key="GridCell.Tab.0.center/1600.0.1600.900/0.0.1600.900@0.0.1600.900" timestamp="1602609862774" />
+    <state width="1552" height="294" key="GridCell.Tab.0.left" timestamp="1602609862773">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1552" height="294" key="GridCell.Tab.0.left/1600.0.1600.900/0.0.1600.900@0.0.1600.900" timestamp="1602609862773" />
+    <state width="1552" height="294" key="GridCell.Tab.0.right" timestamp="1602609862774">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1552" height="294" key="GridCell.Tab.0.right/1600.0.1600.900/0.0.1600.900@0.0.1600.900" timestamp="1602609862774" />
+    <state x="403" y="288" width="800" height="498" key="Vcs.Push.Dialog.v2" timestamp="1602607229103">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="403" y="288" width="800" height="498" key="Vcs.Push.Dialog.v2/1600.0.1600.900/0.0.1600.900@0.0.1600.900" timestamp="1602607229103" />
   </component>
 </project>
