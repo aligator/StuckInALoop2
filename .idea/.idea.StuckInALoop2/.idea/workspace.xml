@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5411ab59-97f8-4ab2-87b6-9c575e05096b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/MediumEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/MediumEnemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/StrongEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/StrongEnemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/WeakEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/WeakEnemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Shot/Shot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Shot/Shot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Shot/WeakShot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Shot/WeakShot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMoveHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMoveHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemySpawnHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySpawnHandler.cs" afterDir="false" />
+    <list default="true" id="5411ab59-97f8-4ab2-87b6-9c575e05096b" name="Default Changelist" comment="Dispose enemies and shots when out of screen">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StuckInALoop2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StuckInALoop2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generic/ShootingHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generic/ShootingHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/enemy_green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enemy_green.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/enemy_red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enemy_red.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/enemy_yellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enemy_yellow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/spaceship.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/spaceship.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +37,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMoveHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generic/MoveHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Generic/ShootingHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawnHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisposeTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generic/ShootingHandler.cs" />
       </list>
     </option>
   </component>
@@ -79,8 +84,17 @@
       <option name="presentableId" value="Default" />
       <updated>1602523147847</updated>
       <workItem from="1602523159093" duration="1465000" />
-      <workItem from="1602532622331" duration="3658000" />
+      <workItem from="1602532622331" duration="3967000" />
+      <workItem from="1602606984537" duration="123000" />
     </task>
+    <task id="LOCAL-00001" summary="Dispose enemies and shots when out of screen">
+      <created>1602538137547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602538137547</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,7 +102,27 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Dispose enemies and shots when out of screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dispose enemies and shots when out of screen" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="401" y="228" key="Vcs.Push.Dialog.v2" timestamp="1602538139031">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="401" y="228" key="Vcs.Push.Dialog.v2/1600.0.1600.900/0.0.1600.900@0.0.1600.900" timestamp="1602538139031" />
   </component>
 </project>
