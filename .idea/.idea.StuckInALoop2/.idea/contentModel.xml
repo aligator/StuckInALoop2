@@ -10,8 +10,8 @@
           <e p="Constants.cs" t="Include" />
           <e p="DisposeTrigger.cs" t="Include" />
           <e p="EnemySpawnHandler.cs" t="Include" />
-          <e p="GameHandler.cs" t="Include" />
           <e p="Generic" t="Include">
+            <e p="DestroyBulletsHandler.cs" t="Include" />
             <e p="HealthHandler.cs" t="Include" />
             <e p="MoveHandler.cs" t="Include" />
             <e p="Owner.cs" t="Include" />

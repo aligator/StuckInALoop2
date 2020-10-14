@@ -10,7 +10,8 @@ using UnityEngine;
  * It is required to pass a Prefab for each enemy type which is used as base
  * for the types.
  */
-public class EnemySpawnHandler : MonoBehaviour {
+public class EnemySpawnHandler : MonoBehaviour
+{
     /**
      * enemyPrefabs contains the prefabs for all possible enemy types.
      */
@@ -46,7 +47,8 @@ public class EnemySpawnHandler : MonoBehaviour {
      */
     private float screenHeight;
 
-    private void Start() {
+    private void Start()
+    {
         // Create the possibleEnemies map out of the passed GameObjects.
         possibleEnemies = new Dictionary<EnemyType, GameObject>();
         for (var i = enemyPrefabs.Length - 1; i >= 0; i--) possibleEnemies.Add((EnemyType) i, enemyPrefabs[i]);
@@ -59,11 +61,12 @@ public class EnemySpawnHandler : MonoBehaviour {
         screenHeight = vertExtent * 2;
 
         // Hardcoded list of enemies to be spawned.
-        enemiesToSpawn = new[] {
-            new EnemyStartingStats(EnemyType.Weak, 1, 0.5f, 0.1f, 2),
-            new EnemyStartingStats(EnemyType.Medium, 1, 1f, 0.08f, 1),
-            new EnemyStartingStats(EnemyType.Strong, 1, 0f, 0.05f, 1),
-            new EnemyStartingStats(EnemyType.Weak, 1, 0.1f, 0.08f, 1)
+        enemiesToSpawn = new[]
+        {
+            new EnemyStartingStats(EnemyType.Weak, 1, 0.5f, 0.03f, 2),
+            new EnemyStartingStats(EnemyType.Medium, 1, 1f, 0.02f, 1),
+            new EnemyStartingStats(EnemyType.Strong, 1, 0f, 0.01f, 1),
+            new EnemyStartingStats(EnemyType.Weak, 1, 0.1f, 0.03f, 1)
         };
 
         lastSpawnTime = 0;
@@ -71,7 +74,8 @@ public class EnemySpawnHandler : MonoBehaviour {
     }
 
     // Update is called once per frame
-    private void FixedUpdate() {
+    private void FixedUpdate()
+    {
         // Stop spawning when all enemies are spawned.
         if (nextEnemy >= enemiesToSpawn.Length) return;
 
@@ -87,12 +91,13 @@ public class EnemySpawnHandler : MonoBehaviour {
     /**
      * Spawns a new enemy with the given data.
      */
-    private GameObject SpawnEnemy(EnemyStartingStats stats) {
+    private GameObject SpawnEnemy(EnemyStartingStats stats)
+    {
         // Create the new enemy based on the given type.
         var newEnemy = Instantiate(possibleEnemies[stats.type]);
 
         Owner.Apply(newEnemy, PlayerType.Enemy);
-        
+
         // Get the sprite dimensions.
         var spriteRenderer = possibleEnemies[stats.type].GetComponent<SpriteRenderer>();
         var size = spriteRenderer.size;
@@ -107,7 +112,8 @@ public class EnemySpawnHandler : MonoBehaviour {
         return newEnemy;
     }
 
-    private enum EnemyType {
+    private enum EnemyType
+    {
         Weak,
         Medium,
         Strong
@@ -116,7 +122,8 @@ public class EnemySpawnHandler : MonoBehaviour {
     /**
      * EnemyStartingStats contains all data needed to spawn a new enemy.
      */
-    private struct EnemyStartingStats {
+    private struct EnemyStartingStats
+    {
         public readonly EnemyType type;
 
         public readonly float speed;
@@ -136,7 +143,8 @@ public class EnemySpawnHandler : MonoBehaviour {
         public readonly float spawnWaitTime;
 
         public EnemyStartingStats(EnemyType type, int damage, float yPositionPercentage, float speed,
-            float spawnWaitTime) {
+            float spawnWaitTime)
+        {
             this.type = type;
             this.damage = damage;
             this.yPositionPercentage = yPositionPercentage;

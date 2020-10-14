@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8826310925026272530}
   - component: {fileID: 5118950050068946697}
   - component: {fileID: 1469325303874407081}
+  - component: {fileID: -6242893730197324035}
   m_Layer: 0
   m_Name: Shot
   m_TagString: Untagged
@@ -116,7 +117,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -145,3 +146,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: {x: 0, y: 0}
+--- !u!114 &-6242893730197324035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600010944843475426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6ba0f0451a2b145bae48ea539fcfc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

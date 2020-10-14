@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabShot: {fileID: 2399592890405983894, guid: ec6ffa65c1255a296b2aa40d5472bfa0, type: 3}
-  force: {x: 0.2, y: 0}
+  force: {x: 0.1, y: 0}
   flip: 0
   firePauseTime: 1
   owner: 0
